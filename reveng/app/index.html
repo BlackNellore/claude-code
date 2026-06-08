@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code — Reverse Engineering Docs</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1><span>Claude Code</span> / reveng</h1>
+      <div class="search-container">
+        <span class="search-icon">⌕</span>
+        <input type="search" id="search-input" placeholder="Search all documentation…" autocomplete="off">
+        <div id="search-results"></div>
+      </div>
+    </header>
+
+    <nav class="sidebar" id="sidebar"></nav>
+
+    <main class="content" id="content">
+      <div class="loading">Loading documentation…</div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

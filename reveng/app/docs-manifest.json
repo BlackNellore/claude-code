@@ -1,0 +1,26 @@
+{
+  "title": "Claude Code Reverse Engineering",
+  "docs": [
+    { "id": "index", "path": "../00-index.md", "title": "Index", "category": "Overview" },
+    { "id": "strategy", "path": "../01-strategy-and-architecture.md", "title": "Strategy & Architecture", "category": "Overview" },
+    { "id": "data-flow", "path": "../02-data-flow-and-transformations.md", "title": "Data Flow & Transformations", "category": "Overview" },
+    { "id": "file-locator", "path": "../03-file-locator.md", "title": "File Locator", "category": "Overview" },
+    { "id": "layer-entry", "path": "../layers/01-entry-and-cli.md", "title": "L1: Entry & CLI", "category": "Layers" },
+    { "id": "layer-ui", "path": "../layers/02-ui-terminal.md", "title": "L2: Terminal UI", "category": "Layers" },
+    { "id": "layer-input", "path": "../layers/03-input-processing.md", "title": "L3: Input Processing", "category": "Layers" },
+    { "id": "layer-query", "path": "../layers/04-query-engine.md", "title": "L4: Query Engine", "category": "Layers" },
+    { "id": "layer-api", "path": "../layers/05-api-client.md", "title": "L5: API Client", "category": "Layers" },
+    { "id": "layer-tools", "path": "../layers/06-tools.md", "title": "L6: Tools", "category": "Layers" },
+    { "id": "layer-permissions", "path": "../layers/07-permissions.md", "title": "L7: Permissions", "category": "Layers" },
+    { "id": "layer-mcp", "path": "../layers/08-mcp.md", "title": "L8: MCP", "category": "Layers" },
+    { "id": "layer-memory", "path": "../layers/09-memory-and-dreams.md", "title": "L9: Memory & Dreams", "category": "Layers" },
+    { "id": "layer-multiagent", "path": "../layers/10-multi-agent.md", "title": "L10: Multi-Agent", "category": "Layers" },
+    { "id": "layer-bridge", "path": "../layers/11-bridge-and-remote.md", "title": "L11: Bridge & Remote", "category": "Layers" },
+    { "id": "layer-config", "path": "../layers/12-configuration.md", "title": "L12: Configuration", "category": "Layers" },
+    { "id": "topic-messages", "path": "../topics/messages.md", "title": "Messages & Data Structures", "category": "Topics" },
+    { "id": "topic-hooks", "path": "../topics/hooks.md", "title": "Hooks", "category": "Topics" },
+    { "id": "topic-commands", "path": "../topics/commands-and-skills.md", "title": "Commands & Skills", "category": "Topics" },
+    { "id": "topic-state", "path": "../topics/state-management.md", "title": "State Management", "category": "Topics" },
+    { "id": "topic-extensions", "path": "../topics/extension-points.md", "title": "Extension Points", "category": "Topics" }
+  ]
+}
