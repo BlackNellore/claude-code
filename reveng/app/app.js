@@ -402,8 +402,8 @@
     contentEl.innerHTML = `<div class="loading">
       <p>Failed to load documentation.</p>
       <p style="margin-top:1rem;font-size:0.875rem;color:var(--text-muted)">
-        Run a local server from the repo root:<br>
-        <code>npx serve reveng</code> then open <code>/app/</code>
+        From the <code>reveng</code> directory run:<br>
+        <code>npm run dev</code> (or <code>npx serve .</code>) then open <code>/app/</code>
       </p>
       <p style="margin-top:0.5rem;font-size:0.75rem;color:var(--text-muted)">${escapeHtml(String(err))}</p>
     </div>`;

@@ -1,0 +1,8 @@
+{
+  "name": "claude-code-reveng-docs",
+  "private": true,
+  "scripts": {
+    "dev": "serve .",
+    "start": "serve ."
+  }
+}
